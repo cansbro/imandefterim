@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1B2757186302D549835E54 /* DailyContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C67F96A9A954CE71E08FE /* DailyContentService.swift */; };
+		72118DF09B4441B1548CD853 /* SubscriptionManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE9C41095FF004CB51D8DE /* SubscriptionManagementView.swift */; };
+		7CEEB1CB2DCCB787FE65CCD3 /* YouTubeLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A32823E042EC9F6853A779 /* YouTubeLinkView.swift */; };
+		973193ED2F2582710000F8E2 /* CustomNavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973193EC2F2582710000F8E2 /* CustomNavigationHeader.swift */; };
+		973193F52F2593B00000F8E2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973193F42F2593B00000F8E2 /* WidgetKit.framework */; };
+		973193F72F2593B00000F8E2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973193F62F2593B00000F8E2 /* SwiftUI.framework */; };
+		973194062F2593B10000F8E2 /* imandefterimWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 973193F22F2593B00000F8E2 /* imandefterimWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		973194162F259A370000F8E2 /* WidgetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973194152F259A370000F8E2 /* WidgetDataProvider.swift */; };
+		973194182F259A560000F8E2 /* SharedNoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973194172F259A560000F8E2 /* SharedNoteData.swift */; };
+		97324EFD2F1C3CB000DD966F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 97324EFC2F1C3CB000DD966F /* GoogleSignIn */; };
+		97324EFF2F1C3CB000DD966F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 97324EFE2F1C3CB000DD966F /* GoogleSignInSwift */; };
+		97324F092F1C403B00DD966F /* EmailSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324F072F1C403B00DD966F /* EmailSignInView.swift */; };
+		97324F0A2F1C403B00DD966F /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324F062F1C403B00DD966F /* AuthenticationView.swift */; };
+		976E707C2F259B2E001209D9 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976E707B2F259B2E001209D9 /* StoreKitManager.swift */; };
+		97A3E7522F2570F200FC8443 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 97A3E7512F2570F200FC8443 /* GoogleMobileAds */; };
+		97EF56182F0162C7004A0291 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97EF56172F0162C7004A0291 /* GoogleService-Info.plist */; };
+		97EF56192F0162C8004A0292 /* quran_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 97EF56182F0162C8004A0292 /* quran_data.json */; };
+		B01000001 /* imandefterimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000001 /* imandefterimApp.swift */; };
+		B01000002 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000002 /* DesignTokens.swift */; };
+		B01000003 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000003 /* Strings.swift */; };
+		B01000004 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000004 /* Recording.swift */; };
+		B01000005 /* Dua.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000005 /* Dua.swift */; };
+		B01000006 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000006 /* Folder.swift */; };
+		B01000007 /* PrayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000007 /* PrayerTimes.swift */; };
+		B01000008 /* QuranData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000008 /* QuranData.swift */; };
+		B01000009 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000009 /* DemoData.swift */; };
+		B01000010 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000010 /* OnboardingView.swift */; };
+		B01000011 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000011 /* MainTabView.swift */; };
+		B01000012 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000012 /* NotesView.swift */; };
+		B01000013 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000013 /* NoteDetailView.swift */; };
+		B01000014 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000014 /* TodayView.swift */; };
+		B01000015 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000015 /* PrayerTimesView.swift */; };
+		B01000016 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000016 /* RecordView.swift */; };
+		B01000017 /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000017 /* QuranView.swift */; };
+		B01000018 /* SurahDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000018 /* SurahDetailView.swift */; };
+		B01000019 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000019 /* SettingsView.swift */; };
+		B01000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02000020 /* Assets.xcassets */; };
+		B01000021 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000021 /* FirebaseManager.swift */; };
+		B01000022 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000022 /* AuthService.swift */; };
+		B01000023 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000023 /* UserService.swift */; };
+		B01000024 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000024 /* StorageService.swift */; };
+		B01000025 /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000025 /* NotesService.swift */; };
+		B01000026 /* PrayerTimesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000026 /* PrayerTimesService.swift */; };
+		B01000028 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B0E000001 /* FirebaseAuth */; };
+		B01000029 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B0E000002 /* FirebaseFirestore */; };
+		B01000030 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B0E000003 /* FirebaseStorage */; };
+		B01000031 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = B0E000004 /* FirebaseFunctions */; };
+		B01000032 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B0E000005 /* FirebaseMessaging */; };
+		B01000033 /* BookmarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000033 /* BookmarkService.swift */; };
+		B01000034 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000034 /* AudioManager.swift */; };
+		B01000050 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000050 /* Subscription.swift */; };
+		B01000051 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000051 /* PaywallView.swift */; };
+		B01000052 /* PremiumComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000052 /* PremiumComponents.swift */; };
+		B01000053 /* DebugSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000053 /* DebugSubscriptionView.swift */; };
+		B01000060 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000060 /* AdsManager.swift */; };
+		D0E24E7885B65CCC6E440B98 /* UploadAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7650547079832FF22327B37 /* UploadAudioView.swift */; };
+		D517A7CAACCA573DF00F4ACB /* FolderSelectionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804825B38ADCED05EF7A29E4 /* FolderSelectionSheet.swift */; };
+		E7ADD8740E3F9EE764F26220 /* ScanTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E563D3890BB40D937D519 /* ScanTextView.swift */; };
+		F0A377E024CA2099C84B9513 /* AIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F819E90705CF35419BD3112 /* AIChatView.swift */; };
+		F745A782394202502B068BF3 /* AIChatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EA924F87C0ABB30C6DCAF /* AIChatCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		973194042F2593B10000F8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973193F12F2593B00000F8E2;
+			remoteInfo = imandefterimWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9731940B2F2593B10000F8E2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				973194062F2593B10000F8E2 /* imandefterimWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F819E90705CF35419BD3112 /* AIChatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIChatView.swift; sourceTree = "<group>"; };
+		804825B38ADCED05EF7A29E4 /* FolderSelectionSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FolderSelectionSheet.swift; sourceTree = "<group>"; };
+		952EA924F87C0ABB30C6DCAF /* AIChatCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIChatCard.swift; sourceTree = "<group>"; };
+		973193EC2F2582710000F8E2 /* CustomNavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationHeader.swift; sourceTree = "<group>"; };
+		973193F22F2593B00000F8E2 /* imandefterimWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = imandefterimWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		973193F42F2593B00000F8E2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		973193F62F2593B00000F8E2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		973194142F2598190000F8E2 /* imandefterimWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = imandefterimWidgetExtension.entitlements; sourceTree = "<group>"; };
+		973194152F259A370000F8E2 /* WidgetDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataProvider.swift; sourceTree = "<group>"; };
+		973194172F259A560000F8E2 /* SharedNoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNoteData.swift; sourceTree = "<group>"; };
+		97324F062F1C403B00DD966F /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		97324F072F1C403B00DD966F /* EmailSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignInView.swift; sourceTree = "<group>"; };
+		976E707B2F259B2E001209D9 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		97E81DAB2F2440AF000CDE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97E81DAC2F2440F3000CDE2D /* imandefterim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = imandefterim.entitlements; sourceTree = "<group>"; };
+		97EF56172F0162C7004A0291 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97EF56182F0162C8004A0292 /* quran_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quran_data.json; sourceTree = "<group>"; };
+		AA5C67F96A9A954CE71E08FE /* DailyContentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DailyContentService.swift; sourceTree = "<group>"; };
+		B02000001 /* imandefterimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imandefterimApp.swift; sourceTree = "<group>"; };
+		B02000002 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		B02000003 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		B02000004 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		B02000005 /* Dua.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dua.swift; sourceTree = "<group>"; };
+		B02000006 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		B02000007 /* PrayerTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimes.swift; sourceTree = "<group>"; };
+		B02000008 /* QuranData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranData.swift; sourceTree = "<group>"; };
+		B02000009 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		B02000010 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B02000011 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B02000012 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		B02000013 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		B02000014 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		B02000015 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		B02000016 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		B02000017 /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
+		B02000018 /* SurahDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahDetailView.swift; sourceTree = "<group>"; };
+		B02000019 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B02000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B02000021 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		B02000022 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B02000023 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		B02000024 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B02000025 /* NotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		B02000026 /* PrayerTimesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesService.swift; sourceTree = "<group>"; };
+		B02000033 /* BookmarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkService.swift; sourceTree = "<group>"; };
+		B02000034 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		B02000050 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		B02000051 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		B02000052 /* PremiumComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumComponents.swift; sourceTree = "<group>"; };
+		B02000053 /* DebugSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSubscriptionView.swift; sourceTree = "<group>"; };
+		B02000060 /* AdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
+		B03000001 /* imandefterim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imandefterim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A32823E042EC9F6853A779 /* YouTubeLinkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YouTubeLinkView.swift; sourceTree = "<group>"; };
+		B53E563D3890BB40D937D519 /* ScanTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanTextView.swift; sourceTree = "<group>"; };
+		C7650547079832FF22327B37 /* UploadAudioView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UploadAudioView.swift; sourceTree = "<group>"; };
+		FEAE9C41095FF004CB51D8DE /* SubscriptionManagementView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubscriptionManagementView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		973194072F2593B10000F8E2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 973193F12F2593B00000F8E2 /* imandefterimWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		973193F82F2593B00000F8E2 /* imandefterimWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (973194072F2593B10000F8E2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = imandefterimWidget; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973193EF2F2593B00000F8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973193F72F2593B00000F8E2 /* SwiftUI.framework in Frameworks */,
+				973193F52F2593B00000F8E2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01000028 /* FirebaseAuth in Frameworks */,
+				B01000029 /* FirebaseFirestore in Frameworks */,
+				97324EFF2F1C3CB000DD966F /* GoogleSignInSwift in Frameworks */,
+				B01000030 /* FirebaseStorage in Frameworks */,
+				97A3E7522F2570F200FC8443 /* GoogleMobileAds in Frameworks */,
+				B01000031 /* FirebaseFunctions in Frameworks */,
+				B01000032 /* FirebaseMessaging in Frameworks */,
+				97324EFD2F1C3CB000DD966F /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		973193F32F2593B00000F8E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				973193F42F2593B00000F8E2 /* WidgetKit.framework */,
+				973193F62F2593B00000F8E2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97324F082F1C403B00DD966F /* Authentication 2 */ = {
+			isa = PBXGroup;
+			children = (
+				97324F062F1C403B00DD966F /* AuthenticationView.swift */,
+				97324F072F1C403B00DD966F /* EmailSignInView.swift */,
+			);
+			path = "Authentication 2";
+			sourceTree = "<group>";
+		};
+		B05000001 = {
+			isa = PBXGroup;
+			children = (
+				973194142F2598190000F8E2 /* imandefterimWidgetExtension.entitlements */,
+				B05000002 /* imandefterim */,
+				973193F82F2593B00000F8E2 /* imandefterimWidget */,
+				973193F32F2593B00000F8E2 /* Frameworks */,
+				B05000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B05000002 /* imandefterim */ = {
+			isa = PBXGroup;
+			children = (
+				97E81DAC2F2440F3000CDE2D /* imandefterim.entitlements */,
+				97E81DAB2F2440AF000CDE2D /* Info.plist */,
+				B05000004 /* App */,
+				B05000005 /* Core */,
+				B05000006 /* Models */,
+				B05000016 /* Services */,
+				B05000007 /* Views */,
+				B05000018 /* Resources */,
+				B02000020 /* Assets.xcassets */,
+				97EF56172F0162C7004A0291 /* GoogleService-Info.plist */,
+			);
+			path = imandefterim;
+			sourceTree = "<group>";
+		};
+		B05000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B03000001 /* imandefterim.app */,
+				973193F22F2593B00000F8E2 /* imandefterimWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B05000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B02000001 /* imandefterimApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B05000005 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B05000008 /* Design */,
+				B02000003 /* Strings.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B05000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				973194172F259A560000F8E2 /* SharedNoteData.swift */,
+				B02000004 /* Recording.swift */,
+				B02000005 /* Dua.swift */,
+				B02000006 /* Folder.swift */,
+				B02000007 /* PrayerTimes.swift */,
+				B02000008 /* QuranData.swift */,
+				B02000009 /* DemoData.swift */,
+				B02000050 /* Subscription.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B05000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97324F082F1C403B00DD966F /* Authentication 2 */,
+				B05000009 /* Onboarding */,
+				B05000010 /* TabBar */,
+				B05000011 /* Notes */,
+				B05000012 /* Today */,
+				B05000013 /* Record */,
+				B05000014 /* Quran */,
+				B05000015 /* Settings */,
+				B05000017 /* Premium */,
+				D63FCAFE09B8F3CBF9F9BF61 /* AI */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B05000008 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				973193EC2F2582710000F8E2 /* CustomNavigationHeader.swift */,
+				B02000002 /* DesignTokens.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		B05000009 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B02000010 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B05000010 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B02000011 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B05000011 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B02000012 /* NotesView.swift */,
+				B02000013 /* NoteDetailView.swift */,
+				B0A32823E042EC9F6853A779 /* YouTubeLinkView.swift */,
+				C7650547079832FF22327B37 /* UploadAudioView.swift */,
+				B53E563D3890BB40D937D519 /* ScanTextView.swift */,
+				804825B38ADCED05EF7A29E4 /* FolderSelectionSheet.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		B05000012 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				B02000014 /* TodayView.swift */,
+				B02000015 /* PrayerTimesView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		B05000013 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				B02000016 /* RecordView.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		B05000014 /* Quran */ = {
+			isa = PBXGroup;
+			children = (
+				B02000017 /* QuranView.swift */,
+				B02000018 /* SurahDetailView.swift */,
+			);
+			path = Quran;
+			sourceTree = "<group>";
+		};
+		B05000015 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B02000019 /* SettingsView.swift */,
+				FEAE9C41095FF004CB51D8DE /* SubscriptionManagementView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B05000016 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				976E707B2F259B2E001209D9 /* StoreKitManager.swift */,
+				973194152F259A370000F8E2 /* WidgetDataProvider.swift */,
+				B02000021 /* FirebaseManager.swift */,
+				B02000022 /* AuthService.swift */,
+				B02000023 /* UserService.swift */,
+				B02000024 /* StorageService.swift */,
+				B02000025 /* NotesService.swift */,
+				B02000026 /* PrayerTimesService.swift */,
+				B02000033 /* BookmarkService.swift */,
+				B02000034 /* AudioManager.swift */,
+				AA5C67F96A9A954CE71E08FE /* DailyContentService.swift */,
+				B02000060 /* AdsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B05000017 /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				B02000051 /* PaywallView.swift */,
+				B02000052 /* PremiumComponents.swift */,
+				B02000053 /* DebugSubscriptionView.swift */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		B05000018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97EF56182F0162C8004A0292 /* quran_data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D63FCAFE09B8F3CBF9F9BF61 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				952EA924F87C0ABB30C6DCAF /* AIChatCard.swift */,
+				0F819E90705CF35419BD3112 /* AIChatView.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973193F12F2593B00000F8E2 /* imandefterimWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973194082F2593B10000F8E2 /* Build configuration list for PBXNativeTarget "imandefterimWidgetExtension" */;
+			buildPhases = (
+				973193EE2F2593B00000F8E2 /* Sources */,
+				973193EF2F2593B00000F8E2 /* Frameworks */,
+				973193F02F2593B00000F8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				973193F82F2593B00000F8E2 /* imandefterimWidget */,
+			);
+			name = imandefterimWidgetExtension;
+			productName = imandefterimWidgetExtension;
+			productReference = 973193F22F2593B00000F8E2 /* imandefterimWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B06000001 /* imandefterim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07000001 /* Build configuration list for PBXNativeTarget "imandefterim" */;
+			buildPhases = (
+				B08000001 /* Sources */,
+				B04000001 /* Frameworks */,
+				B09000001 /* Resources */,
+				9731940B2F2593B10000F8E2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973194052F2593B10000F8E2 /* PBXTargetDependency */,
+			);
+			name = imandefterim;
+			packageProductDependencies = (
+				B0E000001 /* FirebaseAuth */,
+				B0E000002 /* FirebaseFirestore */,
+				B0E000003 /* FirebaseStorage */,
+				B0E000004 /* FirebaseFunctions */,
+				B0E000005 /* FirebaseMessaging */,
+				97324EFC2F1C3CB000DD966F /* GoogleSignIn */,
+				97324EFE2F1C3CB000DD966F /* GoogleSignInSwift */,
+				97A3E7512F2570F200FC8443 /* GoogleMobileAds */,
+			);
+			productName = imandefterim;
+			productReference = B03000001 /* imandefterim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					973193F12F2593B00000F8E2 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					B06000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B0B000001 /* Build configuration list for PBXProject "imandefterim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				Base,
+			);
+			mainGroup = B05000001;
+			packageReferences = (
+				B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				97324EFB2F1C3CB000DD966F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				97A3E7502F2570F200FC8443 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = B05000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06000001 /* imandefterim */,
+				973193F12F2593B00000F8E2 /* imandefterimWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973193F02F2593B00000F8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01000020 /* Assets.xcassets in Resources */,
+				97EF56182F0162C7004A0291 /* GoogleService-Info.plist in Resources */,
+				97EF56192F0162C8004A0292 /* quran_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		973193EE2F2593B00000F8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01000001 /* imandefterimApp.swift in Sources */,
+				B01000002 /* DesignTokens.swift in Sources */,
+				B01000003 /* Strings.swift in Sources */,
+				B01000004 /* Recording.swift in Sources */,
+				B01000034 /* AudioManager.swift in Sources */,
+				B01000005 /* Dua.swift in Sources */,
+				B01000006 /* Folder.swift in Sources */,
+				B01000007 /* PrayerTimes.swift in Sources */,
+				B01000008 /* QuranData.swift in Sources */,
+				97324F092F1C403B00DD966F /* EmailSignInView.swift in Sources */,
+				97324F0A2F1C403B00DD966F /* AuthenticationView.swift in Sources */,
+				973194162F259A370000F8E2 /* WidgetDataProvider.swift in Sources */,
+				B01000009 /* DemoData.swift in Sources */,
+				B01000010 /* OnboardingView.swift in Sources */,
+				B01000011 /* MainTabView.swift in Sources */,
+				B01000012 /* NotesView.swift in Sources */,
+				B01000013 /* NoteDetailView.swift in Sources */,
+				B01000014 /* TodayView.swift in Sources */,
+				B01000015 /* PrayerTimesView.swift in Sources */,
+				B01000016 /* RecordView.swift in Sources */,
+				B01000017 /* QuranView.swift in Sources */,
+				B01000018 /* SurahDetailView.swift in Sources */,
+				B01000019 /* SettingsView.swift in Sources */,
+				B01000021 /* FirebaseManager.swift in Sources */,
+				B01000022 /* AuthService.swift in Sources */,
+				B01000023 /* UserService.swift in Sources */,
+				B01000024 /* StorageService.swift in Sources */,
+				B01000025 /* NotesService.swift in Sources */,
+				B01000026 /* PrayerTimesService.swift in Sources */,
+				B01000033 /* BookmarkService.swift in Sources */,
+				B01000060 /* AdsManager.swift in Sources */,
+				B01000050 /* Subscription.swift in Sources */,
+				973193ED2F2582710000F8E2 /* CustomNavigationHeader.swift in Sources */,
+				B01000051 /* PaywallView.swift in Sources */,
+				973194182F259A560000F8E2 /* SharedNoteData.swift in Sources */,
+				B01000052 /* PremiumComponents.swift in Sources */,
+				B01000053 /* DebugSubscriptionView.swift in Sources */,
+				7CEEB1CB2DCCB787FE65CCD3 /* YouTubeLinkView.swift in Sources */,
+				D0E24E7885B65CCC6E440B98 /* UploadAudioView.swift in Sources */,
+				976E707C2F259B2E001209D9 /* StoreKitManager.swift in Sources */,
+				E7ADD8740E3F9EE764F26220 /* ScanTextView.swift in Sources */,
+				1E1B2757186302D549835E54 /* DailyContentService.swift in Sources */,
+				72118DF09B4441B1548CD853 /* SubscriptionManagementView.swift in Sources */,
+				F745A782394202502B068BF3 /* AIChatCard.swift in Sources */,
+				F0A377E024CA2099C84B9513 /* AIChatView.swift in Sources */,
+				D517A7CAACCA573DF00F4ACB /* FolderSelectionSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		973194052F2593B10000F8E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 973193F12F2593B00000F8E2 /* imandefterimWidgetExtension */;
+			targetProxy = 973194042F2593B10000F8E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		973194092F2593B10000F8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = imandefterimWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = RKYFCHV3D5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imandefterimWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = imandefterimWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayetio.imandefterim.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9731940A2F2593B10000F8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = imandefterimWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = RKYFCHV3D5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imandefterimWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = imandefterimWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayetio.imandefterim.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0C000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0C000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = imandefterim/imandefterim.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RKYFCHV3D5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imandefterim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "İman Defterim";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vaaz ve sohbetleri kaydetmek için mikrofon erişimi gereklidir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayetio.imandefterim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0D000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = imandefterim/imandefterim.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RKYFCHV3D5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imandefterim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "İman Defterim";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vaaz ve sohbetleri kaydetmek için mikrofon erişimi gereklidir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayetio.imandefterim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		973194082F2593B10000F8E2 /* Build configuration list for PBXNativeTarget "imandefterimWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973194092F2593B10000F8E2 /* Debug */,
+				9731940A2F2593B10000F8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07000001 /* Build configuration list for PBXNativeTarget "imandefterim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D000001 /* Debug */,
+				B0D000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B000001 /* Build configuration list for PBXProject "imandefterim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C000001 /* Debug */,
+				B0C000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97324EFB2F1C3CB000DD966F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		97A3E7502F2570F200FC8443 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
+		B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97324EFC2F1C3CB000DD966F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97324EFB2F1C3CB000DD966F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		97324EFE2F1C3CB000DD966F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97324EFB2F1C3CB000DD966F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		97A3E7512F2570F200FC8443 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97A3E7502F2570F200FC8443 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		B0E000001 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B0E000002 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B0E000003 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		B0E000004 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		B0E000005 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B0A000001 /* Project object */;
+}
