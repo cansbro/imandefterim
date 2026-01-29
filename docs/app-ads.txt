@@ -1,2 +1,2 @@
-google.com, pub-4643843396973917, DIRECT, f08c47fec0942fa0
+google.com, pub-9537913891880904, DIRECT, f08c47fec0942fa0
 # Lütfen 'pub-0000000000000000' kısmını kendi AdMob Yayıncı Kimliğiniz ile değiştirin. Use your own Publisher ID.

@@ -7,7 +7,7 @@ class AdsManager: NSObject, ObservableObject {
     // MARK: - Ad Unit IDs (Test IDs)
     // Replace these with your actual Ad Unit IDs from AdMob dashboard
     // TODO: USER_ACTION required - Update with real IDs
-    let bannerAdUnitID = "ca-app-pub-3940256099942544/2934735716"
+    let bannerAdUnitID = "ca-app-pub-9537913891880904/3647350247"
     let interstitialAdUnitID = "ca-app-pub-3940256099942544/4411468910"
     let rewardedAdUnitID = "ca-app-pub-3940256099942544/1712485313"
 
